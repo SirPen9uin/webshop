@@ -19,6 +19,12 @@ class Product(models.Model):
     price = models.IntegerField()
     description = models.TextField()
     realized_at = models.DateTimeField(blank=True, null=True)
+    picture = models.ImageField(blank=True, null=True, upload_to="uploads/")
 
     def __str__(self):
         return self.name
+
+
+class Bucket(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    product = models.ForeignKey(Product, on_delete=models.CASCADE)
