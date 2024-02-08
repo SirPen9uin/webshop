@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5c3bd14-8905-4b4a-a87f-02e6cc613be7" name="Changes" comment="Static index fix">
-      <change beforePath="$PROJECT_DIR$/shop/shopping/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/shopping/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/shopping/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/shopping/templates/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/shopping/templates/empty_section.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/shopping/templates/empty_section.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/shopping/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/shopping/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/shopping/templates/phone.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/shopping/templates/phone.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/shopping/templates/smartphones.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/shopping/templates/smartphones.html" afterDir="false" />
+    <list default="true" id="c5c3bd14-8905-4b4a-a87f-02e6cc613be7" name="Changes" comment="Model Bucket added">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/shopping/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/shopping/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/shopping/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/shopping/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/shopping/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/shopping/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706804630382</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Model Bucket added">
+      <option name="closed" value="true" />
+      <created>1706805563017</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706805563017</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,7 +139,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Static index fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Static index fix" />
+    <MESSAGE value="Model Bucket added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Model Bucket added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
